@@ -6,3 +6,10 @@ description: Broadcast from terminal
 api-version: 1.16
 website: programu.jeme.cz
 prefix: ConsoleBroadcast
+commands:
+    console:
+      description: Broadcast from console to chat
+      usage: /console
+      permission: consolebroadcast.console
+      permission-message: You don't have the permission to do this.
+      alias: broadcast
