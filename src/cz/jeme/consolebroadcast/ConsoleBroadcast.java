@@ -32,10 +32,10 @@ public class ConsoleBroadcast extends JavaPlugin {
 				}
 				try {
 					Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "tellraw " + recipient
-							+ " [\"\",{\"text\":\"[\"},{\"text\":\"Console\",\"color\":\"#FF00E7\"},{\"text\":\"] Console: "
-							+ message.toString() + "\"}]");
+							+ " [\"\",{\"text\":\"[\",\"color\":\"dark_gray\"},{\"text\":\"Terminal\",\"color\":\"green\"},{\"text\":\"] \",\"color\":\"dark_gray\"},{\"text\":\"Console\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\": " + message.toString() +"\"}]");
 				} catch (CommandException e) {
-					sender.sendMessage("This command threw exeption, you probably wrote recipent wrongly. (Usage: /console <recipient> <message>)");
+					sender.sendMessage(
+							"This command threw exeption, you probably wrote recipent wrongly. (Usage: /console <recipient> <message>)");
 				}
 
 			}

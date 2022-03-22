@@ -12,4 +12,4 @@ commands:
       usage: /console
       permission: consolebroadcast.console
       permission-message: You don't have the permission to do this.
-      alias: broadcast
+      aliases: [broadcast]
