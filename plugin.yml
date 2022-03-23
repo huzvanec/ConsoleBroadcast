@@ -1,4 +1,4 @@
-main: cz.jeme.consolebroadcast.ConsoleBroadcast
+main: cz.jeme.programu.consolebroadcast.ConsoleBroadcast
 name: ConsoleBroadcast
 version: 1.0.0
 author: XD_CZ

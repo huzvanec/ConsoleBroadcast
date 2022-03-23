@@ -1,4 +1,4 @@
-package cz.jeme.consolebroadcast;
+package cz.jeme.programu.consolebroadcast;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
