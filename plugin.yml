@@ -1,6 +1,6 @@
 main: cz.jeme.programu.consolebroadcast.ConsoleBroadcast
 name: ConsoleBroadcast
-version: 1.0
+version: 2.0
 author: XD_CZ
 description: Broadcast from terminal
 api-version: 1.16
@@ -9,7 +9,7 @@ prefix: ConsoleBroadcast
 commands:
     console:
       description: Broadcast from console to chat
-      usage: /console
+      usage: 'Usage: /console <recipient> <message>'
       permission: consolebroadcast.console
       permission-message: You don't have the permission to do this.
       aliases: [broadcast]
