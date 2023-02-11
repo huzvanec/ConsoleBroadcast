@@ -10,9 +10,8 @@
 ## What is Console Broadcast?
 It's a simple minecraft plugin for messaging players from console.
 ## What platforms are supported?
-Spigot 1.16 - 1.19   
-
-Paper 1.16 - 1.19 _(recommended)_
+Spigot based minecraft servers **1.16+** <br>
+Bukkit is **not** and will **not** be supported.
 ## Usage
 ````
 broadcast <playername> <text-message>
