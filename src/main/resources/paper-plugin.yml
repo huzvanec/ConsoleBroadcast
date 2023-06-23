@@ -1,0 +1,4 @@
+name: ConsoleBroadcast
+version: '${project.version}'
+main: cz.jeme.programu.consolebroadcast.ConsoleBroadcast
+api-version: '1.19'

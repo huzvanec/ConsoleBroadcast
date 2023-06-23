@@ -1,0 +1,3 @@
+# To find out more about this message format read https://docs.advntr.dev/minimessage/
+# Use {MESSAGE} to represent the message
+message: "<dark_gray>[<red>Console</red>]:</dark_gray> {MESSAGE}"
