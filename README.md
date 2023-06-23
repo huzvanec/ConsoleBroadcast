@@ -29,3 +29,18 @@ console @everyone <bold><red>There is an event happening right now!</red></bold>
 ```
 #### everyone's POV:
 ![](https://raw.githubusercontent.com/Mandlemankiller/ConsoleBroadcast/master/screenshots/event.png)
+
+## Build
+Requirements: [Git](https://git-scm.com/), [Maven](https://maven.apache.org/)<br>
+Clone the repository
+```bash
+git clone https://github.com/Mandlemankiller/ConsoleBroadcast.git
+```
+Move to the ConsoleBroadcast directory
+```bash
+cd ConsoleBroadcast
+```
+Package with Maven
+```bash
+mvn package
+```
